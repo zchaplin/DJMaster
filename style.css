@@ -1,0 +1,68 @@
+/** @format */
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4; /* Lighter background for contrast */
+  color: #222; /* Darker text color for better readability */
+}
+
+button {
+  background-color: #ffc107; /* Vibrant gold */
+  color: #222;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 0;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 8px; /* Rounded corners for the button */
+}
+
+button:hover {
+  background-color: #e0a800; /* Slightly darker gold on hover */
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 15px;
+  background: #b22222; /* Dark red */
+  outline: none;
+  opacity: 0.8; /* Slightly less transparency */
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  border-radius: 10px; /* Rounded corners for the slider */
+}
+
+input[type="range"]:hover {
+  opacity: 1; /* Full opacity when hovered */
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #ffc107; /* More vibrant gold handle */
+  cursor: pointer;
+  border-radius: 50%; /* Circular handle */
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #ffc107;
+  cursor: pointer;
+  border-radius: 50%; /* Circular handle for Firefox */
+}
